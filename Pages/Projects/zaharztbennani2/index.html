@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+< lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zahnklinik im Besitz von Dr.Malika Bennani">
+    <meta name="keywords" content="dental,zahnmedizinisch">
+    <meta name="Content" content="zahnmedizinisch">
+    <title>zaharztbennani</title>
+    <link rel="shortcut icon" href="/Icons/favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./Style/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/48546696f3.js" crossorigin="anonymous"></script>
+    <script src="./Script/Script.js" defer></script>
+</body>
+    <header class="top-address">
+        <h2> <i class="fa-solid fa-location-dot"></i>  Sulzbach-Rosenberg</h2>
+        <h3> <i class="fa-solid fa-clock"></i>   Arbeitszeiten: Mo - Fr - 09.00 - 18.00 Uhr</h3>
+    </header>
+
+
+    <header class="header">
+        <a href="#home" class="Logo"><i class="fa-solid fa-tooth"></i>Zaharzt<span>Bennani</span></a>
+        <i class='bx bx-menu' id="menu_icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Heim</a>
+            <a href="#about">Über Uns</a>
+            <a href="#Educations">Dienstleistungen</a>
+            <a href="#services">Fähigkeiten</a>
+            <a href="#contact">Kontaktiere Uns</a>
+            <a href="#formbold-main-wrapper">einen Termin verabredens</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="./Pictures/2.png">
+        </div>
+        <div class="home-content">
+            <h1>Vertrauenswürdige zahnärztliche Leistungen</h1>
+            <p class="home-content-p">Unsere Zahnklinik bietet eine Reihe von Dienstleistungen an, die Ihnen zu einem gesunden und schönen Lächeln verhelfen.</p>
+            <div class="btn-group">
+                <a href="#" class="btn">Vereinbare Einen Termin</a>
+            </div>
+            <div class="phone-call">
+                <a href="#" class="call-content"><i class='bx bxs-phone-call'></i> Rufen Sie uns an </a>
+                <p>+42192837128937</p>
+            </div>    
+        </div>
+    </section>
+    <section class="form">
+        <div class="formbold-main-wrapper">
+            <div class="formbold-form-wrapper">
+                <h2>Vereinbare eine Termin</h2>
+            <form action="#" method="POST">
+                <div class="formbold-mb-5">
+                <label for="name" class="formbold-form-label"> Vollständiger Name </label>
+                <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="vollständiger Name"
+                    class="formbold-form-input"
+                />
+                </div>
+                <div class="formbold-mb-5">
+                <label for="phone" class="formbold-form-label"> Telefonnummer </label>
+                <input
+                    type="number"
+                    name="phone"
+                    id="phone"
+                    placeholder="Gib deine Telefonnummer ein"
+                    class="formbold-form-input"
+                />
+                </div>
+                <div class="formbold-mb-5">
+                <label for="email" class="formbold-form-label"> Telefonnummer </label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="geben sie ihre E-Mail Adresse ein"
+                    class="formbold-form-input"
+                />
+                </div>
+                <div class="flex flex-wrap formbold--mx-3">
+                    <div class="w-full sm:w-half formbold-px-3">
+                        <div class="formbold-mb-5 w-full">
+                        <label for="date" class="formbold-form-label"> Datum </label>
+                        <input
+                            type="date"
+                            name="date"
+                            id="date"
+                            class="formbold-form-input"
+                        />
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-half formbold-px-3">
+                        <div class="formbold-mb-5">
+                        <label for="time" class="formbold-form-label"> Zeit </label>
+                        <input
+                            type="time"
+                            name="time"
+                            id="time"
+                            class="formbold-form-input"
+                        />
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="formbold-mb-5 formbold-pt-3">
+                    <label class="formbold-form-label formbold-form-label-2">
+                        Adressen Details
+                    </label>
+                    <div class="flex flex-wrap formbold--mx-3">
+                        <div class="w-full sm:w-half formbold-px-3">
+                        <div class="formbold-mb-5">
+                            <input
+                            type="text"
+                            name="area"
+                            id="area"
+                            placeholder="Bereich"
+                            class="formbold-form-input"
+                            />
+                        </div>
+                        </div>
+                        <div class="w-full sm:w-half formbold-px-3">
+                        <div class="formbold-mb-5">
+                            <input
+                            type="text"
+                            name="city"
+                            id="city"
+                            placeholder="Stadt"
+                            class="formbold-form-input"
+                            />
+                        </div>
+                        </div>
+                        <div class="w-full sm:w-half formbold-px-3">
+                        <div class="formbold-mb-5">
+                            <input
+                            type="text"
+                            name="state"
+                            id="state"
+                            placeholder="Zustand"
+                            class="formbold-form-input"
+                            />
+                        </div>
+                        </div>
+                        <div class="w-full sm:w-half formbold-px-3">
+                            <div class="formbold-mb-5">
+                            <input
+                                type="text"
+                                name="post-code"
+                                id="post-code"
+                                placeholder="Postleitzahl"
+                                class="formbold-form-input"
+                            />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div>
+                    <button class="formbold-btn">Einen Termin verabreden</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-square' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#services">Dienstleistungen</a>
+            </li>
+            <li>
+                <a href="#about">über uns</a>
+            </li>
+            <li>
+                <a href="#contact">kontaktiere uns</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © zaharztbennani | Alle Rechte vorbehalten
+        </p>
+
+
+</html>

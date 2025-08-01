@@ -1,0 +1,14 @@
+:root{
+    --main-color: #fd2626;
+    --neon-box-shadow: 0 0 .5rem #fd2626;
+}
+.home-img img{
+    display: none;
+}
+.home-img img:nth-of-type(2){
+    display: block;
+    transition: smooth;
+}
+.home-img img:nth-of-type(3){
+    display: none;
+}

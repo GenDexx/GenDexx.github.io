@@ -1,0 +1,132 @@
+
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(190deg, rgba(255,255,255,1) 0%, rgba(141,197,250,1) 35%, rgba(34,139,238,1) 100%);
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    padding: 0;
+	margin: 0;
+    font-family:'Plus Jakarta Sans';
+    box-sizing: border-box;
+}
+.appointment{ 
+     
+    position: relative;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 30px;
+
+}
+ .formbold-mb-5 {
+	
+    margin-bottom: 20px;
+  }
+  .formbold-pt-3 {
+    padding-top: 12px;
+  }
+  .formbold-main-wrapper {
+	border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .formbold-form-wrapper {
+	border-radius: 30px;
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+  }
+  .formbold-form-label {
+    padding-left: 2%;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    margin-bottom: 12px;
+  }
+  .formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formbold-form-input {
+    width: 90%;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+  }
+  .formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .formbold-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #3e9af1;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+  }
+  .formbold-btn:hover {
+    background-color: #052e73;
+    color: white;
+    border-color: #052e73;
+    transition: 0.7s ease;
+  }
+
+  .formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 100%;
+  }
+  #msg{
+    border-radius: 10px;
+    margin: 0 auto;
+    background: white;
+  }
+   legend h2{
+    text-align: center;
+    color: #052e73;
+    font-size: 30px;
+  }
+  legend p{
+    color: #052e73;
+    text-align: center;
+    font-size: 14px;
+  }
+  .leave-a-msg{
+    color: #07074d;
+    padding-left: 2%;
+  }
+  .msg::placeholder{
+    padding-top: 5%;
+    text-align: center;
+  }

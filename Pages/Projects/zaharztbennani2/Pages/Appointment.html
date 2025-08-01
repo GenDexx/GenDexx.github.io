@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appointment</title>
+    <script src="https://kit.fontawesome.com/48546696f3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:300,regular,500,600,700" media="all">
+    <link rel="stylesheet" href="../Style/Appointment.css">
+</head>
+<body>
+    <div class="appointment">
+    <div class="formbold-main-wrapper">
+  <div class="formbold-form-wrapper">
+    <form action="" method="POST">
+        <legend><h2>Vereinbare einen Termin</h2><p>Bringen Sie mit uns Ihre Zahngesundheit wieder in Schwung</p></legend>
+
+      <div class="formbold-mb-5">
+        <label for="name" class="formbold-form-label"> Vollständiger Name </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Vollständiger Name"
+          class="formbold-form-input"
+        />
+      </div>
+      <div class="formbold-mb-5">
+        <label for="phone" class="formbold-form-label"> Telefonnummer </label>
+        <input
+          type="text"
+          name="phone"
+          id="phone"
+          placeholder="Gib deine Telefonnummer ein"
+          class="formbold-form-input"
+        />
+      </div>
+      <div class="formbold-mb-5">
+        <label for="email" class="formbold-form-label"> E-Mail-Adresse </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Geben sie ihre E-Mail Adresse ein"
+          class="formbold-form-input"
+        />
+      </div>
+      <div class="flex flex-wrap formbold--mx-3">
+        <div class="w-full sm:w-half formbold-px-3">
+          <div class="formbold-mb-5 w-full">
+            <label for="date" class="formbold-form-label"> Datum </label>
+            <input
+              type="date"
+              name="date"
+              id="date"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+        <div class="w-full sm:w-half formbold-px-3">
+          <div class="formbold-mb-5">
+            <label for="time" class="formbold-form-label"> Zeit </label>
+            <input
+              type="time"
+              name="time"
+              id="time"
+              class="formbold-form-input"
+            />
+          </div>
+        </div>
+        <div class="w-full sm:w-half formbold-px-3">
+          <div class="formbold-mb-5">
+            <label for="leave-a-masg" class="leave-a-msg">Nachricht</label>
+            <textarea name="Leave-a-msg" id="msg" class="msg" cols="70" rows="6" placeholder="eine Nachricht hinterlassen"></textarea>
+          </div>
+        </div>
+      </div>
+
+        <div>
+        <button class="formbold-btn">Einen Termin verabreden</button>
+          </div>
+         </form>
+        </div>
+</body>
+</html>

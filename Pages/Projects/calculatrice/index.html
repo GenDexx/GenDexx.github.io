@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+
+ <div class="calculator">
+    
+     <button id="ecran"></button>
+    <div class="row">
+        <button type="button" class="cara"  onclick="clr('')">C</button>
+        <button type="button" class="cara" onclick="dis('(')"  >(</button>
+        <button type="button" class="cara" onclick="dis (')')" >)</button>
+        <button type="button" class="cara" onclick="dis('%')" >%</button>
+    </div>
+    <div class="row">
+        <button type="button"   value="7"onclick="dis('7')" >7</button>
+        <button type="button"   value="8"onclick="dis('8')" >8</button>
+        <button type="button"   value="9" onclick="dis('9')">9</button>
+        <button type="button" class="cara" onclick="dis('+')">+</button>
+    </div>
+    
+    <div class="row">
+        <button type="button"  value="4"onclick="dis('4')" >4</button>
+        <button type="button"  value="5"onclick="dis('5')" >5</button>
+        <button type="button"  value="6" onclick="dis('6')" >6</button>
+        <button type="button" class="cara" onclick="dis('-')" >-</button>
+    </div>
+
+    <div class="row">
+        <button type="button"   value="1" onclick="dis('1')" >1</button>
+        <button type="button"  value="2" onclick="dis('2')" >2</button>
+        <button type="button"  value="3"onclick="dis('3')" >3</button>
+        <button type="button" class="cara" value="*" onclick="dis('*')"  >&#215;</button>
+    </div>
+    <div class="row">
+        <button type="button" class="cara" onclick="dis('.')"  >.</button>
+        <button type="button"onclick="dis('0')" >0</button>
+        <button type="button" class="cara"onclick="slv('')" >=</button>
+        <button type="button" class="cara" onclick="dis('/')">&#247;</button>
+    </div>
+ </div> 
+ 
+
+ <footer>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+ </footer>
+
+
+<script src="test.js"></script>
+</body>
+</html>

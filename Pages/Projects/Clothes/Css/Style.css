@@ -1,0 +1,457 @@
+body{
+    font-family: "League Spartan";
+    margin: 0;
+    padding: 0;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar img{
+    padding: 20px 50px;
+    width: 90px;
+}
+.logo{
+	cursor: pointer;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+    color: black;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #088178;
+	transition: .4s;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00b9d6;
+    color: white;
+    position: relative;
+}
+
+.text {
+    padding: 50px;
+}
+
+.offer {
+    font-size: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+}
+
+.discount {
+    color: black;
+    font-size: 18px;
+}
+
+button {
+   padding: 15px 70px; 
+   background-color: black; 
+   color:white; 
+   border:3px;
+   border-radius: 10px; 
+   cursor:pointer; 
+}
+button:hover{
+    background-color: white;
+    color: #00b9d6;
+    transition: 0.5s ease;
+}
+
+.image {
+   width:50%; 
+   background-image:url('../Pictures/hero2.jpg') ;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+.features {
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+     margin: 80px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    border: 60px;
+    border-radius: 30px;
+    width: 282px;
+    height: auto;
+    box-shadow: 1px 6px 50px rgb(218, 216, 216) ;
+    text-align: center;
+}
+.feature:hover{
+    box-shadow: 5px 6px 50px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.feature img {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+
+.feature p {
+    color: #088db0;
+    border: 2px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.free{
+    background-color:#fddde4 ;
+}
+.order{
+    background-color: #cdebbc;
+}
+.save{
+    background-color:#d1e8f2 ;
+}
+.promo{
+    background-color: #cdd4f8;
+}
+.happy{
+    background-color: #f6dbf6;
+}
+.support{
+    background-color: #fff2e5;
+}
+
+.first-page h1 + p{
+    margin: -20px;
+    text-align: center;
+}
+.first-page h1{
+    font-family: "league Spartan",sans-serif;
+    font-size: 65px;
+    text-align: center;
+}
+.prodcuts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-product{
+    margin: 80px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    border: 60px;
+    border-radius: 30px 30px 30px 30px;
+    width: 282px;
+    height: auto;
+    box-shadow: 1px 6px 50px rgb(218, 216, 216) ;
+    
+}
+.first-product:hover{
+    box-shadow: 5px 6px 50px black;
+    transition: 0.5s ease;
+}
+.first-product img{
+    margin-top: 8px;
+    margin-left: 15px;
+    border: 2px;
+    border-radius: 30px 30px 30px 30px;
+    width: 250px;
+}
+.first-product p{
+    margin-bottom: -1px;
+    padding-left: 20px;
+    opacity: 50%;
+}
+.first-product h2{
+    font-size: 23px;
+    margin: 10px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+}
+.rating{
+    margin: 5px;
+    margin-left: 15px;
+}
+.first-product i{
+    color: gold;
+    width: 20px;
+}
+.first-product h3{
+    margin: 7px;
+    padding-left: 10px;
+    color: #088178;
+}
+.shop{
+    display: flex;
+    justify-content: space-between;
+}
+.shop i{
+    border: 2px;
+    border-radius: 10px;
+    background-color: #eaf7f6 ;
+    color:#088178;
+    margin-right: 30px;
+    padding: 5px 10px 15px;
+}
+.shop i:hover{
+    cursor: pointer;
+    color:white;
+    background-color: #088178;
+    box-shadow: 5px 6px 50px black;
+    transition: 0.5s ease;
+}
+.sales{
+    background-image: url(../Pictures/b2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+.sales h2{
+    font-size: 35px;
+    padding-top: 35px;
+    color: white;
+    text-align: center;
+}
+.sales h1{
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    margin:0px;
+}
+.click{
+    
+    margin-left: 850px;
+    margin-top: 31px;
+    
+}
+.click button{
+    border: 2px;
+    border-radius: 7px;
+    padding:20px;
+    font-size: 16px;
+}
+.click :hover{
+    background-color: #417381;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 5px 2px 20px  #417381;
+}
+.second-products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.second-products .shop i{
+    color: #088178;
+}
+.second-products .shop i:hover{
+    cursor: pointer;
+    color:white;
+    background-color: #088178;
+    box-shadow: 5px 6px 50px black;
+    transition: 0.5s ease;
+}
+.second-page h1 + p{
+    margin: -20px;
+    text-align: center;
+}
+.second-page h1{
+    font-family: "league Spartan",sans-serif;
+    font-size: 65px;
+    text-align: center;
+}
+.checked {
+  color: orange;
+  
+}
+.Second-product {
+    margin: 80px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    border: 60px;
+    border-radius: 30px 30px 30px 30px;
+    width: 282px;
+    height: auto;
+    box-shadow: 1px 6px 50px rgb(218, 216, 216) ;
+    
+}
+.Second-product:hover{
+    box-shadow: 5px 6px 50px black;
+    transition: 0.5s ease;
+}
+.Second-product img{
+    margin-top: 8px;
+    margin-left: 15px;
+    border: 2px;
+    border-radius: 30px 30px 30px 30px;
+    width: 250px;
+}
+.Second-product p{
+    margin-bottom: -1px;
+    padding-left: 20px;
+    opacity: 50%;
+}
+.Second-product h2{
+    font-size: 23px;
+    margin: 10px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+}
+.Second-product i{
+    color: gold;
+    width: 20px;
+}
+.Second-product h3{
+    margin: 7px;
+    padding-left: 10px;
+    color: #088178;
+}
+.container-ads {
+justify-content: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+gap: 30px;
+}
+
+
+.card-yellow {
+color: white;
+grid-column: 1/3;
+background-image: url(../Pictures/banner/b16.jpg);
+padding: 20px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.card1h1{
+    color: white;
+}
+.learn1{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: none;
+}
+.card-gray {
+    grid-column: 3/5;
+background-image: url(../Pictures/banner/b10.jpg);
+background-size: cover;
+ padding: 20px;
+ color: white;
+ background-repeat: no-repeat;
+}
+.card2{
+    color: white;
+}
+.learn2{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.card-sale{
+background-image: url(../Pictures/banner/b7.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+ padding: 20px;
+ height: 300px;
+ 
+}
+.ads1{
+    padding-top: 70px;
+    padding-left: 10%;
+}
+.sale1{
+    color: white;
+}
+.sale2{
+    color: #74191a;
+}
+.card-foot{
+background-image: url(../Pictures/banner/b3.jpg);
+background-size: cover;
+ padding: 20px;
+}
+.foot1{
+    color: white;
+}
+.foot2{
+    color:white;
+}
+.foot3{
+    color: #74191a;
+}
+.card-shirt{
+background-image: url(../Pictures/banner/b18.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+ 
+}
+.t1{
+    color:white;
+}
+.t2{
+    color: #74191a  ;
+}
+.ads3{
+    padding-top: 90px;
+    padding-left: 10%;
+}
+
+footer{
+    background-image: url(../Pictures/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    position: relative;
+
+}
+.foter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.h-inside{
+    color: white;
+    padding-left: 90px;
+}
+.p-inside{
+    color: #979797;
+    padding-left: 90px;
+    font-size: 25px;
+}
+.p-inside span{
+    color: gold;
+}
+
+input[type=email]{
+    width: 400px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+
+}
+.sign-up{
+    border: 1px solid;
+    border-radius: 0px 10px 10px 0px ;
+    background-color: #088178;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
